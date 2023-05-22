@@ -15,7 +15,7 @@ use App\Http\Controllers\SslCommerzPaymentController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('payment');
 });
 
 // SSLCOMMERZ Start
